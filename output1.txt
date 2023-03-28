@@ -1,0 +1,11 @@
+Durata sortarii 1 : 3.8313 ms
+Durata sortarii 2 : 1.1 ms
+Durata sortarii 3 : 0.9027 ms
+Durata sortarii 4 : 1.115 ms
+Durata sortarii 5 : 1.3501 ms
+Durata sortarii 6 : 1.7308 ms
+Durata sortarii 7 : 2.115 ms
+Durata sortarii 8 : 2.9106 ms
+Durata sortarii 9 : 2.8701 ms
+Durata sortarii 10 : 4.524 ms
+Durata sortarii 11 : 4.1033 ms

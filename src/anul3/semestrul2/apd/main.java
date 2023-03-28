@@ -6,17 +6,48 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class main {
-	 public static void main(String[] args) throws IOException {
-		 for(int i=0;i<=10;i++) {
-			 GenerareRandom generareRandom = new GenerareRandom();
-			 int [] array =generareRandom.generateRandomArray(1000, 0, 20000);
-			 generareRandom.writeArrayToFile(array, "input.txt");
-		 }
+	public static void main(String[] args) throws IOException {
+		 /*--input1 in functie de nr elemente
+	 		int [] array = new int[1000];
+	 		for(int i = 999; i >= 0; i--){
+	 			array[999 - i] = i;
+	 		}
+	 		
+		 	HelperArray generareRandom = new HelperArray();
+		 	generareRandom.writeArrayToFile(array, "input.txt");
+		 	
+		 	for(int i=1;i<=10;i++) {
+		 		int [] array1 =generareRandom.generateRandomArray(5000*i, 0, 20000);
+		 		generareRandom.writeArrayToFile(array1, "input.txt");
+		 	}
+		 	*/
+		 	int size=1000;
+			int [] array = new int[size];
+			for (int i = 0; i < size; i++) {
+		        array[i] = i;
+			}
+			
+		   	HelperArray generareRandom = new HelperArray();
+		 	generareRandom.writeArrayToFile(array, "input.txt");
+		 	int [] array1 = new int[size];
+		 	for (int i = 0; i < size; i++) {
+		        array1[i] = size - i - 1;
+		    }
+		 	generareRandom.writeArrayToFile(array1, "input.txt");
+		 	
+		 	int [] array2 = generareRandom.generateRandomArray(size, 0, 1000);
+		 	generareRandom.writeArrayToFile(array2, "input.txt");
+		 	int[] array3 = new int[size];
+		    for (int i = 0; i < size; i++) {
+		        array3[i] = 5;
+		    }
+		    generareRandom.writeArrayToFile(array3, "input.txt");
 		 	int i=0;
 		 	QuicksortSecvential quicksortSecvential = new QuicksortSecvential();
 	        BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
 	        String line;
 	        FileWriter writer = new FileWriter("output.txt");
+	        
 	        while ((line = reader.readLine()) != null) {
 	            int[] arr = quicksortSecvential.readArrayFromString(line);
 	        
@@ -25,6 +56,7 @@ public class main {
 	        long endTime = System.nanoTime();
 	        i++;
 	        double duration = (endTime - startTime) / 1_000_000.0;
+	       
 	        writer.write("Durata sortarii "+i +" : " + duration + " ms\n");
 	        
 	    }

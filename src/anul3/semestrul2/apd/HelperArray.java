@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
 
-public class GenerareRandom {
+public class HelperArray {
 
 	  public  int[] generateRandomArray(int size, int minValue, int maxValue) {
 	        Random random = new Random();
