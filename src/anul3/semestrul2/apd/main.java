@@ -21,27 +21,6 @@ public class main {
 		 		generareRandom.writeArrayToFile(array1, "input.txt");
 		 	}
 		 	*/
-		 	int size=1000;
-			int [] array = new int[size];
-			for (int i = 0; i < size; i++) {
-		        array[i] = i;
-			}
-			
-		   	HelperArray generareRandom = new HelperArray();
-		 	generareRandom.writeArrayToFile(array, "input.txt");
-		 	int [] array1 = new int[size];
-		 	for (int i = 0; i < size; i++) {
-		        array1[i] = size - i - 1;
-		    }
-		 	generareRandom.writeArrayToFile(array1, "input.txt");
-		 	
-		 	int [] array2 = generareRandom.generateRandomArray(size, 0, 1000);
-		 	generareRandom.writeArrayToFile(array2, "input.txt");
-		 	int[] array3 = new int[size];
-		    for (int i = 0; i < size; i++) {
-		        array3[i] = 5;
-		    }
-		    generareRandom.writeArrayToFile(array3, "input.txt");
 		 	int i=0;
 		 	QuicksortSecvential quicksortSecvential = new QuicksortSecvential();
 	        BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
