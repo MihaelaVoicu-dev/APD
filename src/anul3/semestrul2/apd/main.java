@@ -21,8 +21,8 @@ public class main {
 		 		generareRandom.writeArrayToFile(array1, "input.txt");
 		 	}
 		 	*/
-		 	int i=0;
-		 	QuicksortSecvential quicksortSecvential = new QuicksortSecvential();
+		int i=0;
+		QuicksortSecvential quicksortSecvential = new QuicksortSecvential();
 	        BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
 	        String line;
 	        FileWriter writer = new FileWriter("output.txt");
