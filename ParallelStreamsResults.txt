@@ -1,0 +1,11 @@
+Durata sortarii parallelStreams 0 : 5.5126 ms
+Durata sortarii parallelStreams 1 : 10.1234 ms
+Durata sortarii parallelStreams 2 : 2.9445 ms
+Durata sortarii parallelStreams 3 : 2.4097 ms
+Durata sortarii parallelStreams 4 : 4.0061 ms
+Durata sortarii parallelStreams 5 : 5.766 ms
+Durata sortarii parallelStreams 6 : 6.8905 ms
+Durata sortarii parallelStreams 7 : 7.1199 ms
+Durata sortarii parallelStreams 8 : 7.1334 ms
+Durata sortarii parallelStreams 9 : 5.6752 ms
+Durata sortarii parallelStreams 10 : 6.9571 ms

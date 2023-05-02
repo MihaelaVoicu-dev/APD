@@ -1,0 +1,11 @@
+Durata sortarii thread concurrency 0 : 140.87 ms
+Durata sortarii thread concurrency 1 : 953.999 ms
+Durata sortarii thread concurrency 2 : 3440.0127 ms
+Durata sortarii thread concurrency 3 : 5541.6187 ms
+Durata sortarii thread concurrency 4 : 7944.6954 ms
+Durata sortarii thread concurrency 5 : 13899.7165 ms
+Durata sortarii thread concurrency 6 : 18536.7237 ms
+Durata sortarii thread concurrency 7 : 22297.0861 ms
+Durata sortarii thread concurrency 8 : 33530.2499 ms
+Durata sortarii thread concurrency 9 : 48263.7609 ms
+Durata sortarii thread concurrency 10 : 47896.223 ms

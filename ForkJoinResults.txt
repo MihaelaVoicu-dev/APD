@@ -1,0 +1,11 @@
+Durata sortarii fork 0 : 14.3731 ms
+Durata sortarii fork 1 : 6.282901 ms
+Durata sortarii fork 2 : 6.643699 ms
+Durata sortarii fork 3 : 6.6415 ms
+Durata sortarii fork 4 : 9.0881 ms
+Durata sortarii fork 5 : 12.092101 ms
+Durata sortarii fork 6 : 10.6485 ms
+Durata sortarii fork 7 : 7.480601 ms
+Durata sortarii fork 8 : 4.8781 ms
+Durata sortarii fork 9 : 3.786499 ms
+Durata sortarii fork 10 : 4.0056 ms
